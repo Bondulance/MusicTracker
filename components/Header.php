@@ -7,9 +7,12 @@
     <title>Music Tracker | <?php echo $pageTitle ?></title>
     <link rel="stylesheet" href="./lib/styles/styles.css">
     <script src="./lib/scripts/utils.js" async></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="getCurrentMonth();">
     <header>
         <nav>
             <h1>Music Tracker</h1>
