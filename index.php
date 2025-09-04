@@ -3,6 +3,13 @@ $pageTitle = 'Homepage';
 include('./components/Header.php');
 ?>
 
-<h2 id="month_declarer"></h2>
+<main>
+    <h2 id="month_declarer"></h2>
+    <div id="add_region">
+        <div id="add_button">
+            +
+        </div>
+    </div>
+</main>
 
 </body>

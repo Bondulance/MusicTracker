@@ -1,13 +1,21 @@
+:root {
+    --accent-orange : #fa8128;
+    --body-gray : #212121;
+    --white : #FFF;
+    --black-base : #121212;
+    --middle-gray : #535353;
+}
+
 body {
     margin: 0;
-    background: #212121;
+    background: var(--body-gray);
 }  
 
 header {
-    background: #1db954;
+    background: var(--accent-orange);
     width: 100%;
     padding: 10px 10px;
-    box-shadow: 5px 0px 5px 0px black;
+    box-shadow: 5px 0px 5px 0px var(--black-base);
     font-family: "Roboto", "sans-serif";
 }
 
@@ -15,6 +23,35 @@ h2 {
     font-family: "Roboto", "sans-serif";
 }
 
+main {
+    position: relative;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 #month_declarer {
-    color: white;
+    text-align: center;
+    color: var(--white);
+}
+
+#add_region {
+    margin-top: 20px;
+}
+
+#add_button {
+    position: relative;
+    border-radius: 100%;
+    background: var(--middle-gray);
+    color: var(--accent-orange);
+    box-shadow: 0px 2px 2px 0px var(--black-base);
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
