@@ -120,3 +120,24 @@ input[type="submit"]:hover {
     background: var(--accent-orange);
     color: var(--black-base);
 }
+
+.image_result { 
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.result {
+    padding: 5px 10px;
+    background: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.name_result {
+    font-family: "Roboto", "sans-serif";
+    color: var(--black-base);
+}
