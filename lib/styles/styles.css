@@ -9,18 +9,34 @@
 body {
     margin: 0;
     background: var(--body-gray);
+    overflow: hidden;
 }  
 
 header {
     background: var(--accent-orange);
     width: 100%;
-    padding: 10px 10px;
+    padding: 10px 20px;
     box-shadow: 5px 0px 5px 0px var(--black-base);
     font-family: "Roboto", "sans-serif";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    margin-right: 100px;
+}
+
+nav > a {
+    margin-right: 10px;
+    font-family: "Roboto", "sans-serif";
+    color: #121212;
 }
 
 h2 {
     font-family: "Roboto", "sans-serif";
+    text-align: center;
+    color: var(--white);
 }
 
 main {
@@ -59,9 +75,48 @@ main {
 #plus {
     color: var(--accent-orange);
     font-size: 40px;
+    transition: color 0.2s ease-in;
+    text-decoration: none;
 }
 #plus:hover {
     color: var(--white);
-    
 }
 
+#form_container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    background: var(--body-gray);
+    color: var(--white);
+    padding: 5px;
+    border: 2px solid var(--black-base);
+}
+
+input:focus {
+    border: 2px solid var(--accent-orange);
+}
+label {
+    font-family: "Roboto", "sans-serif";
+    color: var(--accent-orange);
+    margin-bottom: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    transition: 300ms ease-in;
+}
+
+input[type="submit"]:hover {
+    background: var(--accent-orange);
+    color: var(--black-base);
+}

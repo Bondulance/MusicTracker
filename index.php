@@ -7,7 +7,7 @@ include('./components/Header.php');
     <h2 id="month_declarer"></h2>
     <div id="add_region">
         <div id="add_button">
-            <p id="plus">+</p>
+            <a id="plus" href="makeMonth.php">+</a>
         </div>
     </div>
 </main>

@@ -14,7 +14,9 @@
 
 <body onload="getCurrentMonth();">
     <header>
+        <h1>Music Tracker</h1>
         <nav>
-            <h1>Music Tracker</h1>
+            <a href="index.php">Home</a>
+            <a href="makeMonth.php">Make a Month</a>
         </nav>
     </header>
