@@ -15,7 +15,7 @@ include('./components/Header.php');
 
             <input type="submit" value="Search for Artist">
         </form>
-
-        <div id="result"></div>
     </div>
+
+     <div id="artist_region"></div>
 </main>

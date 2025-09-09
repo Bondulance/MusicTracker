@@ -141,3 +141,7 @@ input[type="submit"]:hover {
     font-family: "Roboto", "sans-serif";
     color: var(--black-base);
 }
+
+#artist_region {
+    margin-top: 500px;
+}
