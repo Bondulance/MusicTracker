@@ -130,18 +130,43 @@ input[type="submit"]:hover {
 
 .result {
     padding: 5px 10px;
-    background: var(--white);
+    background: var(--middle-gray);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--white);
     
+}
+
+.genre_result {
+    font-family: "Roboto", "sans-serif";
+    color: var(--black-base);
+    padding: 0;
 }
 
 .name_result {
     font-family: "Roboto", "sans-serif";
     color: var(--black-base);
+    padding: 0;
 }
 
 #artist_region {
     margin-top: 50px;
 }
+
+.add_button {
+    background: var(--body-gray);
+    color: var(--white);
+    font-family: "Roboto", "sans-serif";
+    transition: 200ms ease-in;
+    padding: 5px 8px;
+    border-radius: 0;
+    border: 1px solid var(--accent-orange);
+    cursor: pointer;
+}
+
+.add_button:hover() {
+    background: var(--accent-orange);
+    color: var(--black-base);
+}
+
